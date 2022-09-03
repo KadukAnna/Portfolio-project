@@ -64,10 +64,11 @@ h6 {
   border: 1px solid var(--branding-color);
 }
 
-.general_info {
+#general_info {
   font-size: 18px;
   color: var(--primary-color);
   line-height: 27px;
+  margin: 70px 30px;
 }
 
 .project-description {
@@ -94,7 +95,21 @@ h6 {
   margin: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1190px) {
+  .project-description {
+    margin: 30px 30px;
+  }
+
+  .project-description h2 {
+    font-size: 46px;
+  }
+
+  .project-description p {
+    padding: 15px 0;
+  }
+}
+
+@media (max-width: 900px) {
   .hero {
     padding: 90px 20px;
   }
@@ -111,12 +126,17 @@ h6 {
     font-size: 18px;
   }
 
+  #general_info {
+    margin: 35px 20px 15px;
+    font-size: 14px;
+  }
+
   .project-description {
-    margin: 30px 15px;
+    margin: 15px 15px;
     text-align: center;
   }
 
   .project-description h2 {
-    font-size: 54px;
+    font-size: 34px;
   }
 }
