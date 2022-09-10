@@ -151,6 +151,7 @@ h6 {
 
 .content-container h1 {
   font-size: 64px;
+  line-height: 85px;
 }
 
 .content-container h2 {
@@ -174,6 +175,7 @@ h6 {
 
   .content-container h1 {
     font-size: 52px;
+    line-height: 70px;
   }
 
   #view-projects {
@@ -189,9 +191,18 @@ h6 {
 
   .content-container h1 {
     font-size: 40px;
+    line-height: 55px;
   }
 
   #view-projects {
     margin: 20px 0;
   }
+}
+
+.content-container h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 10px;
 }
