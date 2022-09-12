@@ -24,6 +24,15 @@ h6 {
   color: black;
 }
 
+.active {
+  color: var(--branding-color) !important;
+}
+
+.nav-item {
+  padding: 0 20px;
+  line-height: 2;
+}
+
 .hero {
   background-color: var(--primary-background-color);
   text-align: center;
@@ -267,9 +276,6 @@ footer .social-links a {
 
   footer h4 {
     font-size: 34px;
-  }
-
-  footer .btn-branding {
   }
 }
 
